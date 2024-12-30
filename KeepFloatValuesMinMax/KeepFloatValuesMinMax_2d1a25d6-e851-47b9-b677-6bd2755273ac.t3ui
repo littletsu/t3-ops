@@ -1,0 +1,58 @@
+{
+  "Id": "2d1a25d6-e851-47b9-b677-6bd2755273ac"/*KeepFloatValuesMinMax*/,
+  "Description": "KeepFloatValues but it outputs min and max of list\n(will output float.MaxValue and float.MinValue occasionally)",
+  "InputUis": [
+    {
+      "InputId": "33373d25-dabf-4a4a-97b4-fef45fcaac11"/*Value*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "InputId": "1f2edafb-8913-4eb8-ba03-e1fe446381e7"/*AddValueToList*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "29f6fca5-aaf5-49d7-abeb-f8c619c14436"/*BufferLength*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "InputId": "40105da2-b094-4e06-bed5-10b2dc23fc7c"/*Reset*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
+    }
+  ],
+  "SymbolChildUis": [],
+  "OutputUis": [
+    {
+      "OutputId": "c328b1d9-f801-4bc0-8636-c0ccde5783db"/*Result*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "OutputId": "77e68697-57cb-498f-b1be-a97edd850ad0"/*Min*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 45.0
+      }
+    },
+    {
+      "OutputId": "a9d97797-701b-4292-b723-198e2f373387"/*Max*/,
+      "Position": {
+        "X": 0.0,
+        "Y": 90.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "Id": "2526c400-59a9-41cf-8292-c9b75999b97a"/*FloatListAverage*/,
+  "Description": "Calculates the average of a float list",
+  "InputUis": [
+    {
+      "InputId": "00c2bfa4-1754-4eb1-a3e2-225130a2cecb"/*List*/,
+      "Relevancy": "Required",
+      "Position": {
+        "X": -566.38806,
+        "Y": -347.45612
+      }
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "e633b007-da43-4a8e-b41b-5644fd2ebb65"/*FloatListLength*/,
+      "Position": {
+        "X": -247.7857,
+        "Y": -283.65506
+      }
+    },
+    {
+      "ChildId": "840fe06f-2e9f-4176-bc7b-c58db3f09d64"/*SumRange*/,
+      "Style": "Expanded",
+      "Size": {
+        "X": 110.0,
+        "Y": 62.0
+      },
+      "Position": {
+        "X": -227.44955,
+        "Y": -390.65698
+      }
+    },
+    {
+      "ChildId": "62fae3f4-c818-4737-95b1-34d957b0149a"/*Div*/,
+      "Position": {
+        "X": 23.527924,
+        "Y": -319.5104
+      }
+    },
+    {
+      "ChildId": "85c2b561-f9cd-4c64-b176-bb29267312cf"/*IntToFloat*/,
+      "Position": {
+        "X": -98.12622,
+        "Y": -243.2698
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "c4310c75-42b0-4bc4-8c4e-0894c9ed3ace"/*Average*/,
+      "Position": {
+        "X": 215.0167,
+        "Y": -305.23407
+      }
+    }
+  ]
+}

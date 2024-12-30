@@ -1,0 +1,147 @@
+{
+  "Id": "0314b07c-a978-4dea-b262-355346c852c1"/*SetVec4Var*/,
+  "Description": "Shorthand for setting 4 float values in the context in the Vec4 values",
+  "InputUis": [
+    {
+      "InputId": "a5d8b5f6-d36b-4ea5-ba97-098edcfe37f9"/*Command*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "InputId": "9f6fea4d-acc0-4a0c-b3a4-96da46f34cfa"/*VariableName*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 45.0
+      },
+      "Usage": "Default"
+    },
+    {
+      "InputId": "f0ca93f6-c480-40f4-93be-4414ec368156"/*ClearAfterExecution*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 90.0
+      }
+    },
+    {
+      "InputId": "1772faef-4dd4-4528-ae30-7aca2e6e39db"/*Vec4Value*/,
+      "Position": {
+        "X": -200.0,
+        "Y": 135.0
+      },
+      "Min": -9999.0,
+      "Max": 9999.0,
+      "Clamp": true
+    }
+  ],
+  "SymbolChildUis": [
+    {
+      "ChildId": "777b8995-b25c-4c9b-b472-ee09ab34f96f"/*SetFloatVar*/,
+      "Position": {
+        "X": 349.86642,
+        "Y": 30.32547
+      }
+    },
+    {
+      "ChildId": "b6d4253f-563f-438a-b075-00d3a02e7cc5"/*CombineStrings*/,
+      "Position": {
+        "X": 132.50195,
+        "Y": 46.39685
+      }
+    },
+    {
+      "ChildId": "dc7f606d-5be8-4c35-bb6d-eb0ed57a4a39"/*AString*/,
+      "Position": {
+        "X": -19.326813,
+        "Y": 85.25346
+      }
+    },
+    {
+      "ChildId": "9a82c6b9-b802-47d6-bae7-6454f06b3831"/*SetFloatVar*/,
+      "Position": {
+        "X": 349.86642,
+        "Y": 112.32547
+      }
+    },
+    {
+      "ChildId": "ef6c9f8b-2645-471c-9d49-4983ce5abe07"/*CombineStrings*/,
+      "Position": {
+        "X": 132.50195,
+        "Y": 128.39685
+      }
+    },
+    {
+      "ChildId": "86c747d8-f896-4d7d-be79-f933814068c6"/*AString*/,
+      "Position": {
+        "X": -18.579529,
+        "Y": 149.17737
+      }
+    },
+    {
+      "ChildId": "57988bfd-5aea-47d6-bb13-cafd561d1713"/*Vector4Components*/,
+      "Position": {
+        "X": -113.97368,
+        "Y": 424.8119
+      }
+    },
+    {
+      "ChildId": "121bfa65-05d7-4109-b78a-b6f5ec61495f"/*SetFloatVar*/,
+      "Position": {
+        "X": 349.86642,
+        "Y": 194.32547
+      }
+    },
+    {
+      "ChildId": "450105b0-eb98-419f-bca5-fa1ab6ce0501"/*CombineStrings*/,
+      "Position": {
+        "X": 135.0567,
+        "Y": 213.00754
+      }
+    },
+    {
+      "ChildId": "54b0387e-7077-47ee-86fb-d52986f85f6a"/*AString*/,
+      "Position": {
+        "X": -16.02478,
+        "Y": 235.57883
+      }
+    },
+    {
+      "ChildId": "db5703ee-64b3-43ff-96c4-e31912317b60"/*SetFloatVar*/,
+      "Position": {
+        "X": 349.86642,
+        "Y": 276.32547
+      }
+    },
+    {
+      "ChildId": "f256bd76-67d5-48b0-a84e-ebc63e5666a5"/*CombineStrings*/,
+      "Position": {
+        "X": 136.55127,
+        "Y": 298.44775
+      }
+    },
+    {
+      "ChildId": "9f555e75-d539-4ab2-9af4-6ad21d585988"/*AString*/,
+      "Position": {
+        "X": -16.024841,
+        "Y": 321.5163
+      }
+    },
+    {
+      "ChildId": "fceb3f0e-95d8-489d-967f-bd669a2a39ce"/*Execute*/,
+      "Position": {
+        "X": 675.02246,
+        "Y": 152.47758
+      }
+    }
+  ],
+  "OutputUis": [
+    {
+      "OutputId": "f62a4960-c905-4982-b037-93520ba70233"/*Output*/,
+      "Position": {
+        "X": 847.1203,
+        "Y": 188.82954
+      }
+    }
+  ]
+}
